@@ -1,0 +1,40 @@
+body {
+    background: url('../images/bg_body.jpg');
+}
+
+div.wrapper {
+    width: 1000px;
+    position: inherit;
+	margin: auto;
+	background: rgba(0, 0, 0, .4);
+	padding-top:60px;
+}
+
+header.header {
+	width:100%;
+	background: grey;
+}
+
+nav.mainmenu {
+	display:inline-block;
+	position:relative;
+	top: -60px;
+	left: 80px;
+	height: 39px;
+	background:#fff;
+	border-radius:5px;
+}
+
+ul.menu-list li.menu-item {
+	display:inline-block;
+	white-space:nowrap;
+}
+
+li.menu-item {
+	line-height:39px;
+	width: 110px;
+	/*margin: 0 10px 0 10px;*/
+	text-align:center;
+	text-decoration:none;
+}
+
