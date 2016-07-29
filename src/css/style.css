@@ -1,5 +1,19 @@
 body {
     background: url('../images/bg_body.jpg');
+	font-family: Verdana,Geneva,sans-serif;
+	color:#fff;
+}
+
+a {
+	text-decoration:underline;
+}
+
+h1, h2, h3, h4, h5, h5, nav, section {
+	font-family: Georgia,Times,Times New Roman,serif; 
+}
+
+h1 {
+	font-style:italic;
 }
 
 div.wrapper {
@@ -38,3 +52,33 @@ li.menu-item {
 	text-decoration:none;
 }
 
+ul.lang-list li.lang-item {
+	display:inline-block;
+	white-space:nowrap;	
+	position:relative;
+	top: -140px;
+	font-size:11px;
+	color:#e8d183;
+}
+
+li.lang-item:nth-child(-n+3)::after{
+	content:' |';
+	color:#fff;
+}
+
+div.auth {
+	display:inline-block;
+	white-space:nowrap;	
+	position:relative;
+	top: -155px;
+	left:830px;
+	font-size:11px;	
+}
+
+span.auth-link {
+	
+}
+
+span.signin {
+	
+}
